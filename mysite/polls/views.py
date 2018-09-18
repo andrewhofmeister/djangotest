@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
+		output = ', '.join([q.question_text for q in latest_question_list])
 	return HttpResponse("Hello, world. You're at the polls index.")
 
 def detail(request, question_id):
