@@ -1,2 +1,2 @@
 # djangotest
-testing django dev stuff
+Django getting started tutuorial just to get my feet wet in Django and Git
